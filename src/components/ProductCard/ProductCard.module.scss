@@ -140,4 +140,11 @@
     font-weight: 400;
     text-shadow: 0px 1px 0px #000000;
     color: #ffffff;
+    span{
+        cursor: pointer;
+        font-weight: 700;
+        color: $notActive;
+        text-decoration: 1px underline dashed;
+        text-underline-offset: 2px;
+    }
 }
