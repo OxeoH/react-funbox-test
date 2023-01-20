@@ -10,6 +10,7 @@
 }
 
 .container {
+    transition: 0.4s ease-in-out 0s;
     display: inline-block;
     position: relative;
     width: 320px;
@@ -48,6 +49,7 @@
 }
 
 .ball{
+    transition: 0.4s ease-in-out 0s;
     position: absolute;
     z-index: 6;
     display: flex;
@@ -134,13 +136,15 @@
 }
 
 .underText{
-    margin-top: 15px;
+    user-select: none;
+    margin-top: 8px;
     font-size: 13px;
     line-height: 16px;
     font-weight: 400;
     text-shadow: 0px 1px 0px #000000;
     color: #ffffff;
     span{
+        line-height: 20px;
         cursor: pointer;
         font-weight: 700;
         color: $notActive;
