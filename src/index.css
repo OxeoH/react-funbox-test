@@ -7,9 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background: black url('./assets/Pattern.png') repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html{
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
