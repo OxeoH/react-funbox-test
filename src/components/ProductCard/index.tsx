@@ -57,6 +57,7 @@ export const ProductCard: React.FC<ProductProps> = ({title, mouses, name, portio
 
   return (
     <div className={styles.card}>
+        <div className={styles.outstock} style={{display: stock ? 'none' : ''}}></div>
         <div
           ref={backRef}
           onClick={() => selectProduct()}
@@ -74,8 +75,8 @@ export const ProductCard: React.FC<ProductProps> = ({title, mouses, name, portio
               style={{color: backColors.HOVERACTIVE, display: (hover && selected) ? '' : 'none'}}>
               Котэ не одобряет?
             </div>
-            <div className={styles.name}>{name}</div>
-            <div className={styles.taste}>{taste}</div>
+            <div className={styles.name} style={{color: !stock ? backColors.OUTSTOCK : ''}}>{name}</div>
+            <div className={styles.taste} style={{color: !stock ? backColors.OUTSTOCK : ''}}>{taste}</div>
             <div className={styles.portion}>
               <span className={styles.count}>{portions}</span> {portionsArray[portionsIndex]}
             </div>
