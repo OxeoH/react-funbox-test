@@ -166,3 +166,21 @@
         text-underline-offset: 2px;
     }
 }
+
+@media screen and (max-width: 1200px){
+    .card{
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .card{
+        margin: 0 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 485px){
+    .card{
+        margin-bottom: 30px;
+    }
+}
