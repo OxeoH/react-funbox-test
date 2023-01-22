@@ -8,7 +8,8 @@ export const products: ProductProps[] = [
         portions: 10,
         mouses: 1,
         weight: '0,5',
-        stock: true
+        stock: true,
+        selectedText: 'Печень утки разварная с артишоками.'
     },
     {
         title: 'Сказочное заморское яство',
@@ -17,7 +18,8 @@ export const products: ProductProps[] = [
         portions: 40, 
         mouses: 2,
         weight: '2',
-        stock: true
+        stock: true,
+        selectedText: 'Головы щучьи с чесноком да свежайшая сёмгушка.'
     },
     {
         title: 'Сказочное заморское яство',
@@ -26,6 +28,7 @@ export const products: ProductProps[] = [
         portions: 100, 
         mouses: 5,
         weight: '5',
-        stock: false
+        stock: false,
+        selectedText: 'Филе из цыплят с трюфелями в бульоне.'
     },
 ]

@@ -5,5 +5,6 @@ export type ProductProps={
     portions: number,
     mouses: number,
     weight: string,
-    stock: boolean
+    stock: boolean,
+    selectedText: string
 }

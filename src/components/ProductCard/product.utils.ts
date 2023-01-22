@@ -1,18 +1,28 @@
 export enum backColors{
     PASSIVE="#1698d9",
     ACTIVE="#d91667",
-    OUTSTOCK="#b3b3b3"
+    OUTSTOCK="#b3b3b3",
+    HOVERPASSIVE="#2ea8e6",
+    HOVERACTIVE="#e62e7a"
 }
 
 export const portionsArray = ['порция', 'порции','порций']
 export const giftsArray = ['мышь', 'мыши', 'мышей']
 
-export const getColor = (stock: boolean, selected: boolean) =>{
+export const getColor = (stock: boolean, selected: boolean, hover: boolean) =>{
     if(stock){
       if(selected){
-        return backColors.ACTIVE
+        if(hover){
+          return backColors.HOVERACTIVE
+        }else{
+          return backColors.ACTIVE
+        }
       }else{
-        return backColors.PASSIVE
+        if(hover){
+          return backColors.HOVERPASSIVE
+        }else{
+          return backColors.PASSIVE
+        }
       }
     }else{
       return backColors.OUTSTOCK
