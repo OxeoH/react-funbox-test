@@ -2,7 +2,7 @@
 
 This is **AnimalFoodShop** that was created on the basis of **a test task** from the company **FunBox**.
 
-![image](https://github.com/OxeoH/react-funbox-test/assets/82836661/7441b9c8-4c3d-475d-b9b0-4964de193121)
+![image](https://github.com/OxeoH/react-funbox-test/assets/82836661/431aaab8-e174-41b6-9110-98190b33c106)
 
 # Deploy
 This project was deployed on free hosting **Netlify**. 
