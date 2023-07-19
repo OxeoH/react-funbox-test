@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# AnimalFoodShop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is **AnimalFoodShop** that was created on the basis of **a test task** from the company **FunBox**.
 
-## Available Scripts
+![image](https://github.com/OxeoH/react-funbox-test/assets/82836661/7441b9c8-4c3d-475d-b9b0-4964de193121)
 
-In the project directory, you can run:
+# Deploy
+This project was deployed on free hosting **Netlify**. 
+You can follow the link and try it: [deployment](https://illustrious-biscuit-bff9a4.netlify.app/)
 
+## Stack:
+### `React`
+### `Typescript`
+### `SASS/SCSS`
+
+# Getting started
+
+### `npm install`
+Use this command to install all project dependencies
+***
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+Use it to start the development server and open it in browser using this link http://localhost:3000
+***
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Or build the app for production to the `build` folder using this command. 
+See the section about **deployment** for more information.
